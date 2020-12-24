@@ -1,11 +1,5 @@
 <?php
 
-    /*
-    $str = "Привет! Давно не виделись.";
-    $result = revertCharacters($str);
-    echo $result . "\n";
-    */
-
     function revertCharacters($str) {
     	$line = preg_replace_callback(
 	    '/\b(\w+)\b/u', 
